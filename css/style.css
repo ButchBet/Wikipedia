@@ -1,0 +1,13 @@
+:root {
+    --title: #36c;
+    --description: #54595d;
+    --border: #72777d;
+    --search-background: #447ff5;
+    --laguage-background: #f8f9fa;
+    --hover: #eaecf0;
+}
+
+html {
+    font-size: 62.7%; /* 1rem = 10px */
+    font-family:  sans-serif;
+}
