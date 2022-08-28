@@ -11,3 +11,121 @@ html {
     font-size: 62.7%; /* 1rem = 10px */
     font-family:  sans-serif;
 }
+
+body {
+    padding: 10px;
+}
+
+
+/* 
+1. Position  
+2. Box model
+3. Typography 
+4. Visual
+5. Other
+ */
+
+
+
+
+ /* 1 */
+body,
+.header,
+.header__description,
+.search,
+.search__input-field {
+    display: flex;
+}
+
+body,
+.header__description {
+    flex-direction: column;
+}
+
+.header__description {
+    flex-wrap: wrap;
+}
+
+/* .search {
+    flex-wrap: nowrap;
+} */
+
+.header,
+.header__description {
+    justify-content: center;    
+}
+
+.header__description {
+    text-align: center;
+}
+
+ /* 2 */
+ .header {
+    width: 100%;
+    padding-top: 28px;
+}
+
+body {
+    gap: 5px;
+}
+
+.header,
+.header__description {   
+    gap: 8px;
+}
+
+.header__img {
+    width: 57px;
+    height: 57px;
+}
+
+.header__title {
+    width: 150px;
+    height: 25px;
+}
+
+.header__description,
+.header__subtitle {
+    margin: 0;
+}
+
+.search {
+    height: 61.6px;
+    box-sizing: border-box;
+}
+
+.search__input-field {
+    width: 244px;
+}
+
+.search__button {
+    width: 54px;
+}
+
+ /* 3 */
+ .header {
+    font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+ }
+
+ .header__description {
+    font-weight: 400;
+    font-size: 3rem;
+ }
+
+ .header__title {
+    color: transparent;
+ }
+
+ .header__subtitle {
+    font-size: 1.4rem;
+    font-weight: none;
+ }
+ 
+ /* 4 */
+ .header__title {
+    background: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-position: 0px -216.2px;
+    background-size: 100%;
+    user-select: none;
+ }
+ /* 5 */
